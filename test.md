@@ -17,7 +17,7 @@ git remote add origin ....
 git push -u origin master  
 
 ## how to update a repo 尤其是多文件修改  
-git add --all
+git add --all  
 git commit -m "ed"  
 git push origin master  
   
