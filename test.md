@@ -4,3 +4,14 @@ how to start a github?
 2 git add test.md
 3 git commit -m "a"
 4 git push origin master
+
+
+
+how to start a new repo
+1 echo "a">>README.md
+2 git init
+3 git commit -m "f"
+git remote rm origin
+git remote add origin ....
+git push -u origin master
+
