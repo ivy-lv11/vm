@@ -20,5 +20,6 @@ git push -u origin master
 git add --all  
 git commit -m "ed"  
 git push origin master  
-  
-byebye~  
+
+## 如何获取代码到本地
+git pull --rebase origin master
