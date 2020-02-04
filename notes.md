@@ -5,4 +5,5 @@ cat /proc/cpuinfo |grep "processor"|wc -l
 查看cpu是几核的  
 cat /proc/cpuinfo |grep "cores"|uniq  
 
-
+## strace用法  
+strace cat foo  
