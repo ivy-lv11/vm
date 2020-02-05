@@ -48,6 +48,10 @@ ls -a可以看到.和..，分别指向自己和父目录
 ls -l file-name 可以看到文件的访问权限等详细信息    
 ls -i file-name可以看到文件inode  
   
+* command-name options arguments *   
+command-name,比如说cp,ls,mv,rm  
+options,比如说-l,-a,-v,-h;--version,--help  
+arguments,比如file-name  
 
 
 
