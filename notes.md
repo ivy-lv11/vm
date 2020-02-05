@@ -23,4 +23,7 @@ stat file-name查看详细信息
 
 文件访问限制ls -l foo.txt  
 
- 
+## perf安装和使用
+安装sudo get-apt install linux-perf  
+使用sudo perf stat ./hello  
+详见perf --help 
