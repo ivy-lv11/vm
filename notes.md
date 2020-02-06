@@ -53,6 +53,19 @@ command-name,比如说cp,ls,mv,rm
 options,比如说-l,-a,-v,-h;--version,--help  
 arguments,比如file-name  
 
+## 使用shell  
+echo $SHELL 查看正在使用的是哪一个SHELL  
+
+
+## 安装和使用pstree  
+安装  sudo apt-get install psmisc  
+使用  pstree  
+pstree -V/--version 打印版本  
+pstree -p/--show-pids 打印进程号  
+pstree -n/--numeric-sort 按照pid从小到大输出每一个进程的直接孩子  
+
+/proc/pid 中可以看到进程信息，更加可读的在status中，cat /proc/pid/stat可见  
+stat中第4个数字是父进程pid  
 
 
 
