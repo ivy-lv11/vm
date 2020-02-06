@@ -59,13 +59,14 @@ echo $SHELL 查看正在使用的是哪一个SHELL
 
 ## 安装和使用pstree  
 安装  sudo apt-get install psmisc  
-使用  pstree  
-pstree -V/--version 打印版本  
-pstree -p/--show-pids 打印进程号  
-pstree -n/--numeric-sort 按照pid从小到大输出每一个进程的直接孩子  
 
 /proc/pid 中可以看到进程信息，更加可读的在status中，cat /proc/pid/stat可见  
 stat中第4个数字是父进程pid  
 
 
+## [HH's guide to linux]  
+export sth 既是shell variable也是environment variable 
+env 看环境变量  
+echo ${env} 看环境变量的值  
+echo the abstract-machine is ${AM_HOME}  
 
