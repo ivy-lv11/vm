@@ -28,7 +28,8 @@ stat file-name查看详细信息
 使用sudo perf stat ./hello  
 详见perf --help  
 
-## bc安装和使用  
+## bc安装和使用
+
 sudo apt-get install bc
 输入bc进入,用ctrl+D/quit退出  
 bc -l用数学库  
